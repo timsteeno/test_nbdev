@@ -5,4 +5,7 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://timsteeno.github.io',
                 'git_url': 'https://github.com/timsteeno/test_nbdev',
                 'lib_path': 'test_nbdev'},
-  'syms': {'test_nbdev.core': {'test_nbdev.core.foo': ('core.html#foo', 'test_nbdev/core.py')}}}
+  'syms': { 'test_nbdev.core': {'test_nbdev.core.foo': ('core.html#foo', 'test_nbdev/core.py')},
+            'test_nbdev.preprocessing': { 'test_nbdev.preprocessing.foo': ('preprocessing.html#foo', 'test_nbdev/preprocessing.py'),
+                                          'test_nbdev.preprocessing.say_hello': ( 'preprocessing.html#say_hello',
+                                                                                  'test_nbdev/preprocessing.py')}}}

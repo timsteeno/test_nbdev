@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "test_nbdev"
+  site-url: "https://timsteeno.github.io/test_nbdev"
+  description: "Testing nbdev + Cursor (VS Code) + Quarto plugin"
+  repo-branch: main
+  repo-url: "https://github.com/timsteeno/test_nbdev"
